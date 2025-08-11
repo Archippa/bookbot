@@ -11,7 +11,6 @@ def get_num_chars(text):
     for char in chars:
 
         if char not in num_chars:
-            if char.isalpha():
                 num_chars[char] = 1
         else:
             num_chars[char] +=1
